@@ -42,7 +42,30 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 " 行末の半角スペースを可視化(うまく動かない？)
 NeoBundle 'bronson/vim-trailing-whitespace'
+"ステータスラインの表示内容を強化
+NeoBundle 'itchyny/lightline.vim'
 
+"入力途中のコードを自動で補完してくれる機能
+NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+
+" html
+
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'othree/html5.vim'
+
+" javascript
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'moll/vim-node'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+
+"NERDTREE
+"insert here your Neobundle plugins"
+NeoBundle 'scrooloose/nerdtree'
+"NerdTreeのショートカットの設定
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 """"""""""""""""""""""""""""""
 

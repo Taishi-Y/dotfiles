@@ -121,6 +121,9 @@ setopt hist_reduce_blanks
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LS_COLORS='di=36:ln=35'
 zstyle ':completion:*' list-colors 'di=36' 'ln=35'
+
+# cdしたあとで、自動的に ls する
+function chpwd() { ls -1 }
  
 ##################
 ### エイリアス ###
